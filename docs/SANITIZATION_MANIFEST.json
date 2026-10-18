@@ -1,0 +1,314 @@
+{
+  "archive_kind": "sanitized non-flashable filesystem",
+  "redacted_assignments": 2158,
+  "redacted_xml": 2,
+  "modified": [
+    {
+      "path": "etc/mtab",
+      "action": "runtime mount information removed"
+    },
+    {
+      "path": "etc/passwd",
+      "action": "password and GECOS fields neutralized"
+    },
+    {
+      "path": "etc/shadow",
+      "action": "password hashes replaced by locked account marker"
+    },
+    {
+      "path": "mnt/mtd/RT2870AP.dat",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/RT2870STA.dat",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/TZ",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_3thddns.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_action.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_alarm.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_alarm_token.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_com485.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_cover.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_custom.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_debug.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_defaultimage.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_devices.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_devtype.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_devtypese.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_encode.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_facddns.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_image.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_md.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_net.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_ntp.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_obj_push.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_objsave.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_onvif.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_osd.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_platform.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_priv.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_ptz.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_recsnap.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_run3g.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_schedule.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_sysinfo.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_timer.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_user.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_videoex.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/config_wifiex.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/ipcam_upnp.xml",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/resolv.conf",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/udhcpc/default.bound",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/udhcpc/default.deconfig",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/udhcpc/default.leasefail",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/udhcpc/default.renew",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/udhcpc/default.script",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/udhcps/udhcpd.conf",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/conf/wifi.conf",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/config_default.zip",
+      "action": "all nested configuration files sanitized and re-zipped"
+    },
+    {
+      "path": "mnt/mtd/ipc/web/web.ini",
+      "action": "field values erased; keys/sections retained where possible"
+    },
+    {
+      "path": "mnt/mtd/ipc/setnet",
+      "action": "device MAC literal neutralized in executable or text"
+    },
+    {
+      "path": "mnt/mtd/ipc/wifi_wps.sh",
+      "action": "private network IP literal replaced with documentation address"
+    },
+    {
+      "path": "mnt/mtd/ipc/run",
+      "action": "private network IP literal replaced with documentation address"
+    },
+    {
+      "path": "mnt/mtd/ipc/wifi_setsmart.sh",
+      "action": "private network IP literal replaced with documentation address"
+    },
+    {
+      "path": "mnt/mtd/ipc/ipc_server",
+      "action": "private network IP literal replaced with documentation address"
+    },
+    {
+      "path": "mnt/mtd/ipc/chg_net.sh",
+      "action": "private network IP literal replaced with documentation address"
+    }
+  ],
+  "cleared": [
+    {
+      "path": "home/admin/.ash_history",
+      "reason": "Interactive shell command history"
+    },
+    {
+      "path": "tmp/mtd0_probe.bin",
+      "reason": "Temporary bootloader acquisition probe"
+    },
+    {
+      "path": "tmp/tftp-8k.bin",
+      "reason": "Temporary acquisition transfer test"
+    },
+    {
+      "path": "tmp/tftp-test.txt",
+      "reason": "Temporary acquisition transfer test"
+    },
+    {
+      "path": "var/lib/misc/udhcpd.leases",
+      "reason": "Dynamic DHCP lease state"
+    },
+    {
+      "path": "var/run/utmp",
+      "reason": "Prior login/session records"
+    }
+  ],
+  "zip_modified": [
+    "mnt/mtd/ipc/conf/config_videoex.ini",
+    "mnt/mtd/ipc/conf/config_encode.ini",
+    "mnt/mtd/ipc/conf/config_custom.ini",
+    "mnt/mtd/ipc/conf/config_osd.ini",
+    "mnt/mtd/ipc/conf/ipcam_upnp.xml",
+    "mnt/mtd/ipc/conf/config_schedule.ini",
+    "mnt/mtd/ipc/conf/config_run3g.ini",
+    "mnt/mtd/ipc/conf/config_sysinfo.ini",
+    "mnt/mtd/ipc/conf/config_action.ini",
+    "mnt/mtd/ipc/conf/config_timer.ini",
+    "mnt/mtd/ipc/conf/config_objsave.ini",
+    "mnt/mtd/ipc/conf/config_com485.ini",
+    "mnt/mtd/ipc/conf/config_recsnap.ini",
+    "mnt/mtd/ipc/conf/resolv.conf",
+    "mnt/mtd/ipc/conf/config_image.ini",
+    "mnt/mtd/ipc/conf/config_devices.ini",
+    "mnt/mtd/ipc/conf/config_onvif.ini",
+    "mnt/mtd/ipc/conf/udhcpc/default.bound",
+    "mnt/mtd/ipc/conf/udhcpc/default.script",
+    "mnt/mtd/ipc/conf/udhcpc/default.deconfig",
+    "mnt/mtd/ipc/conf/udhcpc/default.leasefail",
+    "mnt/mtd/ipc/conf/udhcpc/default.renew",
+    "mnt/mtd/ipc/conf/udhcps/udhcpd.conf",
+    "mnt/mtd/ipc/conf/config_net.ini",
+    "mnt/mtd/ipc/conf/config_wifiex.ini",
+    "mnt/mtd/ipc/conf/config_md.ini",
+    "mnt/mtd/ipc/conf/config_ntp.ini",
+    "mnt/mtd/ipc/conf/config_3thddns.ini",
+    "mnt/mtd/ipc/conf/TZ",
+    "mnt/mtd/ipc/conf/config_cover.ini",
+    "mnt/mtd/ipc/conf/config_ptz.ini",
+    "mnt/mtd/ipc/conf/config_alarm.ini",
+    "mnt/mtd/ipc/conf/config_debug.ini",
+    "mnt/mtd/ipc/conf/wifi.conf",
+    "mnt/mtd/ipc/conf/config_user.ini"
+  ],
+  "binary_policy": "Preserved binary executable and library artifacts, not raw JFFS2 pages",
+  "counts": {
+    "files": 471,
+    "symlinks": 184,
+    "directories": 61
+  },
+  "original_source_files_sha256": "NOT RECORDED to avoid disclosure of sensitive original file fingerprints",
+  "release_archive_sha256": "7b3c531bde427bc1f71b2bdd688065808e3abf1ee85f2fa167134c55538fb1da",
+  "release_archive_bytes": 8583012,
+  "partition_handling": {
+    "mtd0_boot": "bootloader partition (393216 bytes); offsets 0x40000..0x5ffff scrubbed with 0xFF to remove environment and board/network settings. NOT flashable.",
+    "mtd1_kernel": "kernel partition (1835008 bytes) copied after non-exhaustive ASCII secret screening; third-party copyrighted binary.",
+    "mtd2_rootfs": "only logical extracted files reconstructed from JFFS2; raw eraseblocks and obsolete/deleted inode content are NOT included."
+  },
+  "bundle_labels": "Privacy redacted RESEARCH snapshot only, never a complete flashable image.",
+  "sha256": {
+    "boot_sanitized": "0a599c7579cc771962bd84c58d99b7871e0f7c652c7732d99face98a4a1122b8",
+    "kernel_original": "8e05986d3b275cfce828bba04835ef3d6fe8cf130ce614947553b60a6b68746d",
+    "rootfs_archive": "7b3c531bde427bc1f71b2bdd688065808e3abf1ee85f2fa167134c55538fb1da"
+  }
+}

@@ -1,6 +1,6 @@
 # Security and responsible handling
 
-This repository contains **offline research tools and descriptive analysis** of an old network camera firmware. It does **not** contain an original firmware image, live configuration backups, device-specific password hashes, personal credentials, or private network screenshots.
+This repository contains **offline research tools and descriptive analysis** of an old network camera firmware. It does **not** contain the **original raw 16 MiB flash dump**, live configuration backups, device-specific password hashes, personal credentials, or private network screenshots. A best-effort **sanitized but non-flashable** derived research bundle is included under `firmware/` and may retain undocumented embedded vendor identifiers.
 
 ## Protect private artifacts
 

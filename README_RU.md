@@ -41,3 +41,8 @@ python3 tools/jffs2_extract_wanscam.py /private/wanscam_full_flash_16MiB.bin --o
 Не используйте полученный при работе камеры образ как гарантированно пригодный для обратной записи: JFFS2 менялась во время снятия дампа.
 
 **Безопасность:** личные пароли, образ, конфигурации и результаты экстракции хранить вне GitHub. Подробнее — [SECURITY.md](SECURITY.md).
+
+
+## Обезличенная исследовательская копия
+
+См. [`firmware/`](firmware/) и [`docs/SANITIZATION.md`](docs/SANITIZATION.md). Для Windows: `py .\firmware\reassemble.py`. Не предназначена для прошивки обратно.

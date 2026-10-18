@@ -2,7 +2,7 @@
 
 Reverse engineering and read-only recovery research for a 2016-era Wanscam/Hipcam IP camera, with evidence pointing to the **HiSilicon HI3518EV200** family.
 
-> **Scope:** independent analysis of an owner-provided 16 MiB MTD image. **No firmware, device credentials, or live configuration dumps are distributed here.**
+> **Scope:** independent analysis of an owner-provided 16 MiB MTD image. **An anonymized, non-flashable research snapshot is available; the original unredacted flash image, account secrets, and live configurations remain private.**
 
 ## Verified findings
 
@@ -20,6 +20,12 @@ Reverse engineering and read-only recovery research for a 2016-era Wanscam/Hipca
 
 These findings relate to the examined firmware; they do not establish compatibility with every similarly branded camera.
 
+## Sanitized firmware research snapshot
+
+A privacy-redacted **Boot + Kernel + reconstructed JFFS2 filesystem** research bundle is supplied in [firmware/](firmware/). It is split into 14 verified binary parts, reassembled with `py .\firmware\reassemble.py` (Windows) or `python3 firmware/reassemble.py` (Linux).
+
+**NOT FLASHABLE**: Boot environment removed, raw JFFS2 pages excluded, account hashes and all configuration values neutralized. Third-party vendor binaries remain present and may have redistribution restrictions. See [sanitization manifest](docs/SANITIZATION.md) for the exact file list.
+
 ## Contents
 
 - [`docs/flash_and_jffs2_analysis_EN.md`](docs/flash_and_jffs2_analysis_EN.md) — detailed flash layout, filesystems and authorization research.
@@ -28,6 +34,9 @@ These findings relate to the examined firmware; they do not establish compatibil
 - [`tools/wanscam_accounts_local.py`](tools/wanscam_accounts_local.py) — extract system-account hashes locally from an owned image and optionally verify owner-supplied candidates; creates **private output**.
 - [`tools/jffs2_extract_wanscam.py`](tools/jffs2_extract_wanscam.py) — JFFS2 parser/extractor for Linux hosts with `liblzo2`.
 - [`README_RU.md`](README_RU.md) — Russian documentation.
+- [`firmware/README.md`](firmware/README.md) — sanitized firmware archive and reassembly instructions.
+- [`docs/SANITIZATION.md`](docs/SANITIZATION.md) — exact modified/cleared file list and privacy caveats.
+- [`tools/sanitize_wanscam_release.py`](tools/sanitize_wanscam_release.py) — reproducible offline sanitization tool for an extracted rootfs.
 
 ## Usage
 
